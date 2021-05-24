@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- ========BOX ICONS  -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
+    />
+    <!-- LINK CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <title>Responsive Resume</title>
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header class="l-header" id="header">
+      <nav class="nav bd-container">
+        <a href="#" class="nav__logo">Andres</a>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link">
+                <i class="bx bx-home nav__icon active-link"></i>Home
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#profile" class="nav__link">
+                <i class="bx bx-user nav__icon"></i>Profile
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#education" class="nav__link">
+                <i class="bx bx-book nav__icon"></i>Education
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#skills" class="nav__link">
+                <i class="bx bx-receipt nav__icon"></i>Skills
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#experience" class="nav__link">
+                <i class="bx bx-briefcase-alt nav__icon"></i>Experience
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#certificates" class="nav__link">
+                <i class="bx bx-award nav__icon"></i>Certificates
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#references" class="nav__link">
+                <i class="bx bx-link-external nav__icon"></i>References
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="bx bx-grid-alt"></i>
+        </div>
+      </nav>
+    </header>
+
+    <main class="l-main bd-container">
+      <!-- Todos los elementos dentro de este div, son generados en pdf -->
+      <div class="resume" id="area-cv">
+        <div class="resume__left">
+          <!-- HOME -->
+          <section class="home" id="home">
+            <div class="home-container section bd-grid">
+              <div class="home__data bd-grid">
+                <!-- <img src="img/user1.jpg" alt="" class="home__img" /> -->
+
+                <h1 class="home__title">CARLOS <b>GÓMEZ</b></h1>
+                <h3 class="home__profession">Web Developer Junior</h3>
+
+                <!-- Botón para descargar Resume -->
+
+                <div>
+                  <a download="" href="#" class="home__button_movil">Download</a>
+                  
+                </div>
+              </div>
+
+              <div class="home__address bd-grid">
+                <span class="home__information">
+                  <i class="bx bx-map home__icon"></i>Calle 59s # 78 f 14 Bogotá -
+                  Colombia
+                </span>
+                <span class="home__information">
+                  <i class="bx bx-envelope home__icon"></i
+                  >carlosandres675@gmail.com
+                </span>
+                <span class="home__information">
+                  <i class="bx bx-phone home__icon"></i>57 317 560 8987
+                </span>
+              </div>
+            </div>
+
+            <!-- Theme Change Button -->
+            <!-- <i class="bx bx-moon change-theme" title="theme" id="theme-button"></i> -->
+
+            <!-- Button to generate and download pdf. available for desktop -->
+            <!-- <i class="bx bx-download generate-pdf" title="Generate PDf" id="resume-button"></i> -->
+
+          </section>
+
+          <!-- Social -->
+    <section class="social section">
+      <h2 class="section-title">SOCIAL</h2>
+
+      <div class="social__container bd-grid">
+        <a target="_blank" href="https://www.linkedin.com/in/carlos-gomeze" class="social__link">
+          <i class="bx bxl-linkedin-square social__icon"></i>carlos-gomeze
+        </a>
+        <a
+          target="_blank"
+          href="https://github.com/cgomeze20"
+          class="social__link"
+        >
+          <i class="bx bxl-github social__icon"></i>cgomeze20
+        </a>
+        <a
+          target="_blank"
+          href="https://twitter.com/carlosandres675"
+          class="social__link"
+        >
+          <i class="bx bxl-twitter social__icon"></i>@carlosandres675
+        </a>
+      </div>
+    </section>
+
+    <!-- Profile -->
+    <section class="profile section" id="profile">
+      <h2 class="section-title">Profile</h2>
+
+      <p class="profile__description">
+        I'm a developer extremely motivated and passionate about learning technologies that help me grow in the professional area who loves to solve complex issues.
+        <br><br>
+        My experience is related to data analysis, but I have come across the world of the web and wish I could learn a lot about web development.
+      </p>
+    </section>
+
+    <!-- Education -->
+    <section class="education section" id="education">
+      <h2 class="section-title">Education</h2>
+
+      <div class="education__container bd-grid">
+        <div class="education__content">
+          <div class="education__time">
+            <span class="education__rounder"></span>
+            <span class="education__line"></span>
+          </div>
+
+          <div class="education__data bd-grid">
+            <h3 class="education__title">Ingeniería de Sistemas</h3>
+            <span class="education__studies">CUN</span>
+            <span class="education__year">2019 - Actualmente</span>
+          </div>
+        </div>
+
+        <div class="education__content">
+          <div class="education__time">
+            <span class="education__rounder"></span>
+            <span class="education__line"></span>
+          </div>
+
+          <div class="education__data bd-grid">
+            <h3 class="education__title">Web Development</h3>
+            <span class="education__studies">Udemy</span>
+            <span class="education__year">2021</span>
+          </div>
+        </div>
+
+        <div class="education__content">
+          <div class="education__time">
+            <span class="education__rounder"></span>
+            <!-- <span class="education__line"></span> -->
+          </div>
+
+          <div class="education__data bd-grid">
+            <h3 class="education__title">Business Intelligence with Power BI</h3>
+            <span class="education__studies">Platzi</span>
+            <span class="education__year">2021</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section class="skills section">
+      <h2 class="section-title">skills</h2>
+
+      <div class="skills__content bd-grid">
+        <ul class="skills__data">
+          <li class="skills__name">
+            <span class="skills__circle"></span>POWER BI
+          </li>
+
+          <li class="skills__name">
+            <span class="skills__circle"></span>HTML
+          </li>
+
+          <li class="skills__name">
+            <span class="skills__circle"></span>CSS
+          </li>
+        </ul>
+
+        <ul class="skills__data">
+          <li class="skills__name">
+            <span class="skills__circle"></span>JAVASCRIPT
+          </li>
+
+          <li class="skills__name">
+            <span class="skills__circle"></span>FIREBASE
+          </li>
+
+          <li class="skills__name">
+            <span class="skills__circle"></span>SQL SERVER
+          </li>
+          <li class="skills__name">
+            <span class="skills__circle"></span>Mongo DB
+          </li>
+          <li class="skills__name">
+            <span class="skills__circle"></span>MYSQL
+          </li>
+        </ul>
+
+      </div>
+    </section>
+
+        </div>
+
+        <div class="resume__right">
+
+          <!-- EXPRERIENCES -->
+          <section class="experience section" id="experience">
+            <h2 class="section-title">Experience</h2>
+
+            <div class="experience__container bd-grid">
+              <div class="experience__content">
+                <div class="experience__time">
+                  <span class="experience__rounder"></span>
+                  <span class="experience__line"></span>
+                </div>
+
+                <div class="experience__data bd-grid">
+                  <h3 class="experience__title">Data Analyst</h3>
+                  <span class="experience__company">Jun 2018 - present | Redsis S.A.S</span>
+                  <p class="experience__description">
+                    Working for this company, providing experience in the corresponding area and delivering good results for the company and improving internal processes.
+                  </p>
+                </div>
+              </div>
+
+              <div class="experience__content">
+                <div class="experience__time">
+                  <span class="experience__rounder"></span>
+                  <span class="experience__line"></span>
+                </div>
+
+                <div class="experience__data bd-grid">
+                  <h3 class="experience__title">Developer Apps in PowerApps platform</h3>
+                  <span class="experience__company">Jun 2018 - present | Redsis S.A.S</span>
+                  <p class="experience__description">
+                    I have made 9+ applications in PowerApps providing great value for the company and in data collection to later be analyzed, delivering continuous improvement in some company processes.
+                  </p>
+                </div>
+              </div>
+
+              <div class="experience__content">
+                <div class="experience__time">
+                  <span class="experience__rounder"></span>
+                  <!-- <span class="experience__line"></span> -->
+                </div>
+
+                <div class="experience__data bd-grid">
+                  <h3 class="experience__title">Web Developer</h3>
+                  <span class="experience__company">Self-taught</span>
+                  <p class="experience__description">
+                    I have made web applications, through the knowledge acquired in the courses I have taken, and in self-learning, being able to achieve improvements in application development, always looking for the best way to optimize the code.
+                  </p>
+                </div>
+              </div>
+
+            </div>
+          </section>
+          <!-- CERTFICATES -->
+          <section class="certificate section" id="certificates">
+            <h2 class="section-title">certifieds</h2>
+
+            <div class="certificate__conatiner bd-grid">
+              <div class="certificate__content">
+                <h3 class="certificate__title"> Business Intelligence with Power BI | 2021</h3>
+                <p class="certificate__description">
+                  Deepening the learning of this tool, and understanding the flow of data and the interaction with the end user.
+                </p>
+              </div>
+
+              <div class="certificate__content">
+                <h3 class="certificate__title">HTML - CSS - JavaScript from scratch | Udemy  2020</h3>
+                <p class="certificate__description">
+                  Udemy certificate that adds great value to this learning and the correct way to start in web development.
+                </p>
+              </div>
+
+              <div class="certificate__content">
+                <h3 class="certificate__title">Web App Aplication from scratch | 2020</h3>
+                <p class="certificate__description">
+                  Making a learning about PWAs from scratch, and the advantages that we can obtain with javascript.
+                </p>
+              </div>
+
+              <div class="certificate__content">
+                <h3 class="certificate__title">Firebase for the Web | EDTeam 2020</h3>
+                <p class="certificate__description">
+                  Making a learning about PWAs from scratch, and the advantages that we can obtain with javascript.
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+          <!-- REFERENCES -->
+          <section class="references section" id="references">
+            <h2 class="section-title">References</h2>
+
+            <div class="references__container bd-grid">
+              <div class="references__content bd-grid">
+                <span class="references__subtitle">Project Manager | REDSIS S.A.S</span>
+                <h3 class="references__title">Miguel Cote</h3>
+                <ul class="references__contact">
+                  <li>Phone: 320 811 2822</li>
+                  <li>Email: mcote@redsis.com</li>
+                </ul>
+              </div>
+
+              <div class="references__content bd-grid">
+                <span class="references__subtitle">Operational Coordinator | Redsis S.A.S</span>
+                <h3 class="references__title">Fernando Martinez</h3>
+                <ul class="references__contact">
+                  <li>Phone: 321 813 2819</li>
+                  <li>Email: fmartinez@redsis.com</li>
+                </ul>
+              </div>
+
+            </div>
+          </section>
+          <!-- LANGUAGES -->
+
+          <section class="languages section">
+            <h2 class="section-title">Languages</h2>
+
+            <div class="languages__container">
+              <ul class="languages__content bd-grid">
+                <li class="languages__name">
+                  <span class="languages__circle"></span> Spanish
+                </li>
+                <li class="languages__name">
+                  <span class="languages__circle"></span> Intermediate English
+                </li>
+               
+              </ul>
+            </div>
+          </section>
+
+           <!-- Mis Proyectos -->
+           <section class="education section" id="education">
+            <h2 class="section-title">Projects</h2>
+      
+            <div class="education__container bd-grid">
+              <div class="education__content">
+                <div class="education__time">
+                  <span class="education__rounder"></span>
+                  <span class="education__line"></span>
+                </div>
+      
+                <div class="education__data bd-grid">
+                  <a target="_blank" href="https://www.linkedin.com/in/carlos-gomeze" class="social__link">My Trello</a>
+                  <span class="education__studies">Personal project</span>
+                  <span class="education__year">2021 | https://cgomeze20.github.io/mytrello</span>
+                </div>
+              </div>
+      
+              <div class="education__content">
+                <div class="education__time">
+                  <span class="education__rounder"></span>
+                  <span class="education__line"></span>
+                </div>
+      
+                <div class="education__data bd-grid">
+                  <a target="_blank" href="https://www.linkedin.com/in/carlos-gomeze" class="social__link">COVID-19 Tracker</a>
+                  <span class="education__studies">proyecto Personal</span>
+                  <span class="education__year">2021 | https://cgomeze20.github.io/covidAPI/</span>
+                </div>
+              </div>
+      
+              <div class="education__content">
+                <div class="education__time">
+                  <span class="education__rounder"></span>
+                  <!-- <span class="education__line"></span> -->
+                </div>
+      
+                <div class="education__data bd-grid">
+                  <a target="_blank" href="https://www.linkedin.com/in/carlos-gomeze" class="social__link">Web Page EasyBank</a>
+                  <span class="education__studies">proyecto Personal</span>
+                  <span class="education__year">2021 | https://cgomeze20.github.io/easybank/</span>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <!-- Interest -->
+          <section class="interests section">
+            <h2 class="section-title">Interests</h2>
+
+            <div class="interests__container bd-grid">
+              <div class="interests__content">
+                <i class="bx bx-headphone interests__icon"></i>
+                <span class="interests__name">Music</span>
+              </div>
+
+              <div class="interests__content">
+                <i class="bx bxs-plane-alt interests__icon"></i>
+                <span class="interests__name">Travel</span>
+              </div>
+
+              <div class="interests__content">
+                <i class="bx bx-book interests__icon"></i>
+                <span class="interests__name">Read</span>
+              </div>
+
+              <div class="interests__content">
+                <i class="bx bx-football interests__icon"></i>
+                <span class="interests__name">Football</span>
+              </div>
+
+            </div>
+          </section>
+
+          <!-- Scroll Top -->
+
+          <a href="#" class="scrolltop" id="scroll-top">
+            <i class="bx bx-up-arrow-alt scrolltop__icon"></i>
+          </a>
+
+        </div>
+      </div>
+    </main>
+
+    <script src="js/html2pdf.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
